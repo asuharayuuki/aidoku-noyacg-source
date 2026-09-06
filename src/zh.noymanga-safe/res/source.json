@@ -1,0 +1,24 @@
+{
+  "info": {
+    "id": "zh.noymanga.safe",
+    "name": "NoyAcg（全年龄）",
+    "version": 1,
+    "url": "https://noymanga.com",
+    "languages": ["zh"],
+    "contentRating": 0,
+    "minAppVersion": "0.7"
+  },
+  "listings": [
+    { "id": "read-day", "name": "日阅读榜" },
+    { "id": "read-week", "name": "周阅读榜" },
+    { "id": "read-month", "name": "月阅读榜" },
+    { "id": "fav-day", "name": "日收藏榜" },
+    { "id": "fav-week", "name": "周收藏榜" },
+    { "id": "fav-month", "name": "月收藏榜" },
+    { "id": "quality", "name": "高质量榜" }
+  ],
+  "config": {
+    "supportsAuthorSearch": true,
+    "supportsTagSearch": true
+  }
+}

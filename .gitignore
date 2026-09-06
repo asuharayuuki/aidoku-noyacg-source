@@ -1,0 +1,5 @@
+/dist/*.zip
+/references/
+/.tools/
+/src/*/target/
+/src/*/package.aix

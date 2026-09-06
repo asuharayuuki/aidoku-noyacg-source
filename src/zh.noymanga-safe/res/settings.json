@@ -1,0 +1,18 @@
+[
+  {
+    "type": "group",
+    "title": "账号",
+    "footer": "登录凭据仅保存在 Aidoku 本机。插件始终请求仅全年龄内容。",
+    "items": [
+      {
+        "type": "login",
+        "key": "login",
+        "title": "登录 NoyAcg",
+        "logoutTitle": "退出登录",
+        "method": "basic",
+        "notification": "login",
+        "refreshes": ["content", "settings"]
+      }
+    ]
+  }
+]

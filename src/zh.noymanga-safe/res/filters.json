@@ -1,0 +1,20 @@
+[
+  { "type": "text", "id": "author", "title": "作者", "placeholder": "作者名" },
+  { "type": "text", "id": "tag", "title": "标签", "placeholder": "标签名" },
+  {
+    "type": "select",
+    "id": "finished",
+    "title": "状态",
+    "options": ["全部", "连载中", "已完结"],
+    "ids": ["all", "false", "true"],
+    "default": "all"
+  },
+  {
+    "type": "sort",
+    "id": "sort",
+    "title": "排序",
+    "canAscend": false,
+    "options": ["默认", "浏览数", "收藏数", "评分"],
+    "default": { "index": 0, "ascending": false }
+  }
+]
